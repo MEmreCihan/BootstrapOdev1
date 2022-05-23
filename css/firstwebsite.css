@@ -1,6 +1,18 @@
 /*********** aciklama ***********/
-html {
-    background-color: #EEEEEE;
+html{
+    background-color: #e9ecef;
+}
+
+ul>li:first-child {
+    color:brown
+}
+
+ul>li:last-child{
+    color: blueviolet;
+}
+
+li:nth-child(3) {
+    color: aqua;
 }
 
 h1, h2 {
@@ -15,7 +27,6 @@ h1 {
 
 h2 {
     font-size: 30px;
-    color: #323e8f;
 }
 
 ul {
@@ -47,4 +58,8 @@ p, ul, ol {
 }
 #first-article {
     font-size: 40px;
+}
+
+a.test:hover {
+    color: red;
 }
